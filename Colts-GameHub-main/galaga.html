@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="https://media.gq.com/photos/5fbd3397fff3e5e56de13fc1/16:9/w_2240,c_limit/Riz_Playlist.jpg">
+  
+  <meta charset="UTF-8">
+  <title>Galaga</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+    }
+    iframe {
+      border: none;
+      flex: 1; /* Takes all available space above the footer */
+    }
+    footer {
+      text-align: center;
+      color: white;
+      background-color: #111;
+      padding: 5px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <iframe 
+    id="game-iframe"
+    src="https://gam.onl/nes/galaga-demons-of-death.html#game"
+    title="Galaga"
+    scrolling="no"
+    allowfullscreen>
+  </iframe>
+
+  <footer>Licensed by Colt 45's Game Hub</footer>
+</body>
+</html>

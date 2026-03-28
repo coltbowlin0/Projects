@@ -6,7 +6,8 @@ function love.load()
     push = require 'libs/push'
     love.graphics.setDefaultFilter("nearest", "nearest")
     push:setupScreen(VW, VH, WW, WH, {vsync = 1, resizable = true, fullscreen = false, fullscreentype = "desktop"})
-   -- local success, result = pcall(love.graphics.newVideo, 'vids/Logo-
+    local success, result = pcall(love.graphics.newVideo, 'vids/Logo-Animation.ogv')
+    
     if success and result then
         logo = result
         logo_state = "Playing"
@@ -15,8 +16,7 @@ function love.load()
         logo = nil
         logo_state = "Ready"
         print("Video load failed: skipping to Ready state.")
-    end */
-
+    end
 end
 
 function love.resize(w, h)

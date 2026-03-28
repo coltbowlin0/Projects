@@ -12,7 +12,7 @@ body, #canvas {
   position:absolute;
 }
 
-
+/*
 @media only screen and (orientation:portrait) {
   body {
     height: 100vw;
@@ -38,7 +38,7 @@ body, #canvas {
     left: 0;
   }
 }
-
+*/
 #spinner {
   box-sizing: border-box;
   font-size: 10px;

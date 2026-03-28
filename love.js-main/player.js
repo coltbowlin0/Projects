@@ -199,7 +199,7 @@ SOFTWARE.
   Player.runPkgs = function(uri, cache, arg, canvas, ops) {
     return new Promise(function (resolve, reject) {
       ops.base = ops.version + '/' + ((ops.compat) ? 'compat' : 'release');
-
+/*
       var prefetch = [ 'love.wasm', 'love.js', 'love.worker.js' ];
       for (var i = 0; i < prefetch.length; i++) {
         var file = prefetch[i];
@@ -215,8 +215,8 @@ SOFTWARE.
         }
         document.head.appendChild(elink);
       }
-
-      var pkg = 'MyGame.love';
+*/
+      //var pkg = 'game.love';
       var Module = {};
 
       var data = cache[uri];

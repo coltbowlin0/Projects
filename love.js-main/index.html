@@ -12,7 +12,13 @@
   <body>
     <canvas id="canvas"></canvas>
     <div id="spinner" class="pending"></div>
-    
-    <script src="player.js?g=game.love"></script>
+
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      if (!urlParams.has('g')) {
+        window.location.search = '?g=game.love';
+      }
+    </script>
+    <script src="player.js"></script>
   </body>
 </html>

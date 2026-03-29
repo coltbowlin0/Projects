@@ -1,0 +1,8 @@
+[2026-03-29T15:59:31.566Z] Fetch failed (400) for https://dinosaur-game.io/game-tracking-views.ajax?game_id=1&game_slug=dinosaur-game
+Unknown error
+
+[2026-03-29T15:59:31.567Z] Fetch failed (400) for https://dinosaur-game.io/game-vote.ajax?id=1&token=ec9ebe61cfa9243d0206d83f49476c612e6a42ab&url=https%3A%2F%2Fdinosaur-game.io%2Fdinosaur-game
+Unknown error
+
+[2026-03-29T15:59:31.572Z] Fetch failed (400) for https://dinosaur-game.io/comment-paging-v2.ajax?page=1&limit=10&sort=newest&token=bd12400009a0dc7b8122be0686851c87630dbae8&url=https%3A%2F%2Fdinosaur-game.io%2Fdinosaur-game
+Unknown error

@@ -62,8 +62,7 @@ function love.draw()
         if logo_state == "Playing" and logo_sheet then
             love.graphics.draw(logo_sheet, logo_quad, 130, 130)
         elseif logo_state == "Ready" then
-            love.graphics.printf("WELCOME TO COLT'S HUB", 0, VH/2, VW, "center")
-            love.graphics.printf("Press any key to start", 0, VH/2 + 20, VW, "center")
+            
         end
     push:finish()
 end

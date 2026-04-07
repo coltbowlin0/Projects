@@ -28,8 +28,14 @@ function love.load()
         print("Logo sheet failed to load: skipping to Ready.")
     end
 
-    if logo_sheet == "Ready" then
-        
+    if logo_state == "Ready" then
+        ball = {
+            x = VW / 2,
+            y = VH / 2,
+            radius = 20,
+            speedX = 200,
+            speedY = 150
+        }
     end
 end
 
@@ -66,7 +72,7 @@ function love.draw()
         if logo_state == "Playing" and logo_sheet then
             love.graphics.draw(logo_sheet, logo_quad, 130, 130)
         elseif logo_state == "Ready" then
-            
+            love.graphics.circle("fill", ball.x, ball.y, ball.radius)
         end
     push:finish()
 end

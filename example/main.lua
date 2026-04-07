@@ -28,8 +28,8 @@ function love.load()
         print("Logo sheet failed to load: skipping to Ready.")
     end
 
-    if logo_sheet == "Ready" then
-        
+    if logo_state == "Ready" then
+
     end
 end
 
